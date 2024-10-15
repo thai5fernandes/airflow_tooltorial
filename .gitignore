@@ -1,4 +1,4 @@
-airflow-data
+#airflow-data
 
 # These are some examples of commonly ignored file patterns.
 # You should customize this list as applicable to your project.
@@ -50,16 +50,15 @@ Thumbs.db
 *.mov
 *.wmv
 
-# Ignorar tudo no repositório
-*
+# Ignora tudo na pasta airflow-data
+airflow-data/*
 
-# Exceção para a pasta dags
-!dags/
+# Exceto a pasta dags
+!airflow-data/dags/
 
-# Ignorar tudo dentro da pasta dags
-dags/*
+# Ignora tudo dentro da pasta dags
+airflow-data/dags/*
 
-# Exceção para os arquivos etl_dag.py e example_desafio.py
-!dags/etl_dag.py
-!dags/example_desafio.py
-
+# Exceto os arquivos etl_dag.py e example_desafio.py
+!airflow-data/dags/etl_dag.py
+!airflow-data/dags/example_desafio.py
