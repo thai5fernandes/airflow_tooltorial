@@ -1,0 +1,22 @@
+|-- .gitignore
+|-- README.md
+|-- airflow-data
+    |-- airflow-webserver.pid
+    |-- airflow.cfg
+    |-- airflow.db
+    |-- dags
+        |-- __pycache__
+            |-- etl_dag.cpython-310.pyc
+            |-- example_desafio.cpython-310.pyc
+        |-- etl_dag.py
+        |-- example_desafio.py
+    |-- standalone_admin_password.txt
+    |-- webserver_config.py
+|-- data
+    |-- Northwind_small.sqlite
+|-- desafio-airflow.md
+|-- images
+    |-- foco-do-dia.png
+    |-- plataforma-de-dados.png
+    |-- variable.png
+|-- install.sh
