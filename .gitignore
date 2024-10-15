@@ -1,18 +1,9 @@
-# Ignorar tudo no repositório por padrão
-*
+airflow-data
 
-# Exceto a pasta dags
-!dags/
-
-# Ignorar tudo dentro de dags
-dags/*
-
-# Exceto os arquivos etl_dag.py e example_desafio.py
-!dags/etl_dag.py
-!dags/example_desafio.py
-
-# Ignorar a pasta airflow-data (mantendo oculta)
-airflow-data/
+# These are some examples of commonly ignored file patterns.
+# You should customize this list as applicable to your project.
+# Learn more about .gitignore:
+#     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 
 # Node artifact files
 node_modules/
@@ -58,3 +49,17 @@ Thumbs.db
 *.flv
 *.mov
 *.wmv
+
+# Ignorar tudo no repositório
+*
+
+# Exceção para a pasta dags
+!dags/
+
+# Ignorar tudo dentro da pasta dags
+dags/*
+
+# Exceção para os arquivos etl_dag.py e example_desafio.py
+!dags/etl_dag.py
+!dags/example_desafio.py
+
